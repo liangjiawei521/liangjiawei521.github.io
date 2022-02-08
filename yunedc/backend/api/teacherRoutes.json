@@ -1,0 +1,86 @@
+[
+
+    {
+        "path": "/stuAdmin",
+        "name": "stuAdmin",
+        "title": "学生管理",
+        "icon": "el-icon-location",
+        "children": [{
+                "path": "stuClass",
+                "name": "stuClass",
+                "url": "/stuAdmin/stuClass",
+                "title": "班级管理",
+                "icon": "el-icon-star-off"
+            },
+            {
+                "path": "stuInfo",
+                "name": "stuInfo",
+                "url": "/stuAdmin/stuInfo.vue",
+                "title": "学生信息",
+                "icon": "el-icon-star-off"
+            }
+        ]
+    },
+    {
+        "path": "/teacherAdmin",
+        "name": "teacherAdmin",
+        "title": "教师管理1",
+        "icon": "el-icon-location",
+        "children": [{
+                "path": "teacherInfo",
+                "name": "teacherInfo",
+                "url": "/teacherAdmin/teacherInfo",
+                "title": "教师信息",
+                "icon": "el-icon-location"
+            },
+            {
+                "path": "teacherHours",
+                "name": "teacherHours",
+                "url": "/teacherAdmin/teacherHours",
+                "title": "课时统计",
+                "icon": "el-icon-location"
+            },
+            {
+                "path": "teacherScore",
+                "name": "teacherScore",
+                "url": "/teacherAdmin/teacherScore",
+                "title": "教评分数",
+                "icon": "el-icon-location"
+            }
+        ]
+    },
+    {
+        "path": "/notice",
+        "name": "notice",
+        "url": "/notice",
+        "title": "公告信息",
+        "icon": "el-icon-location"
+    },
+    {
+        "path": "/upload",
+        "name": "upload",
+        "url": "/upload",
+        "title": "上传图片",
+        "icon": "el-icon-location"
+    },
+    {
+        "path": "/job",
+        "name": "job",
+        "title": "就业管理",
+        "icon": "el-icon-location",
+        "children": [{
+                "path": "jobList",
+                "name": "jobList",
+                "url": "/job/jobList",
+                "title": "职位信息",
+                "icon": "el-icon-location"
+            },
+            {
+                "path": "jobAddress",
+                "name": "jobAddress",
+                "url": "/job/jobAddress",
+                "title": "就业地信息"
+            }
+        ]
+    }
+]
